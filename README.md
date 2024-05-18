@@ -1,5 +1,5 @@
 
-# Full Stack E-commerce Web Application
+# E Commerce Website
 
 ## Description
 
