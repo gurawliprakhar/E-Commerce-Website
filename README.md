@@ -96,6 +96,29 @@ This project is a full-stack e-commerce web application built using the MERN sta
 5. **Access the application:**
    Open your browser and navigate to `http://localhost:3000`.
 
+## API Testing with Thunder Client
+
+You can use Thunder Client, a REST client extension for Visual Studio Code, to test your API endpoints:
+
+1. **Install Thunder Client:**
+   - Open Visual Studio Code.
+   - Go to Extensions (Ctrl+Shift+X).
+   - Search for "Thunder Client" and install it.
+
+2. **Set up Thunder Client:**
+   - Open Thunder Client from the sidebar.
+   - Create a new HTTP request collection.
+   - Add requests for your API endpoints (e.g., GET, POST, PUT, DELETE).
+
+3. **Configure requests:**
+   - Enter the request URL (e.g., `http://localhost:4000/api/products`).
+   - Set HTTP method and headers as required (e.g., Content-Type: application/json).
+   - Add request body for POST and PUT requests.
+
+4. **Send requests:**
+   - Click "Send" to execute the request.
+   - View response details including status code, headers, and body.
+
 ## Usage
 
 ### Front-end
@@ -127,4 +150,4 @@ This project is licensed under the MIT License.
 For any inquiries or issues, please contact [gurawliprakhar@gmail.com](mailto:gurawliprakhar@gmail.com).
 ```
 
-Make sure to replace the placeholders like `yourusername`, `your_mongodb_uri`, and `your_jwt_secret` with your actual information before finalizing the README.
+This README now includes a section on using Thunder Client for testing API endpoints, which should help users understand how to utilize the tool for your e-commerce application. Adjust the details such as `yourusername`, `your_mongodb_uri`, `your_jwt_secret`, and ensure that the installation steps and usage instructions are clear for potential contributors or users of your project.
