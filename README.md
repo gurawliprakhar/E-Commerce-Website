@@ -26,20 +26,23 @@ This project is a full-stack e-commerce web application built using the MERN sta
  E-COMMERCE-PROJECT
 ├── backend/
 │   ├── config/
-│   │   ├── config.env
-│   │   └── database.js
+│   │   ├── config.env        # Environment configuration file
+│   │   └── database.js       # Database connection setup
 │   ├── controllers/
-│   │   └── productController.js 
+│   │   └── productController.js  # Controller for handling product-related logic
 │   ├── models/
-│   │   └── productModel.js 
+│   │   └── productModel.js   # Definition of product data model
 │   ├── routes/
-│   │   └── productRoutes.js 
+│   │   └── productRoutes.js  # Routes for product-related endpoints
 │   ├── util/
-│   │   └── errorHandler.js   
-│   └── server.js
-├── frontend/
-├── package.json
-└── package-lock.json
+│   │   └── errorHandler.js   # Utility for handling errors
+│   ├── middleware/           # New directory for custom middleware
+│   │   └── error.js          # Sample error handling middleware (for documentation)
+│   └── server.js             # Main server file
+├── frontend/                  # Frontend directory (potentially for client-side code)
+├── package.json               # npm package configuration file
+└── package-lock.json          # npm package lock file
+
 
 
 ## Installation
