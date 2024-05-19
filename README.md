@@ -50,6 +50,7 @@ E-COMMERCE-PROJECT
 │   │   └── errorHandler.js
 │   │   └── apiFeatures.js
 │   │   └── jwtToken.js
+│   │   └── sendEmail.js
 │   └── server.js
 │   └── app.js 
 ├── frontend/                  
