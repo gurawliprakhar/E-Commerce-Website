@@ -17,34 +17,27 @@ This project is a full-stack e-commerce web application built using the MERN sta
 
 ## Technology Stack
 
-- **Front-end:** React.js, Redux, Axios
+- **Front-end:** React.js, 
 - **Back-end:** Node.js, Express.js
 - **Database:** MongoDB, Mongoose
 - **Authentication:** JWT (JSON Web Token)
 
 ## Project Structure
-
-```
-/ecommerce-app
-  /client
-    /src
-      /components
-      /pages
-      /redux
-      /services
-    /public
-    /styles
-    package.json
-  /server
-    /controllers
-    /models
-    /routes
-    /middlewares
-    /config
-    app.js
-    package.json
-  README.md
-```
+ E-COMMERCE-PROJECT
+├── backend/
+│   ├── config/
+│   │   ├── config.env
+│   │   └── database.js
+│   ├── controllers/
+│   │   └── productController.js 
+│   ├── models/
+│   │   └── productModel.js 
+│   ├── routes/
+│   │   └── productRoutes.js 
+│   └── server.js
+├── frontend
+├── package.json
+└── package-lock.json
 
 ## Installation
 
