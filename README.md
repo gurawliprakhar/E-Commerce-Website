@@ -40,7 +40,8 @@ E-COMMERCE-PROJECT
 │   │   └── productModel.js
 │   │   └── userModel.js    
 │   ├── routes/
-│   │   └── productRoutes.js  
+│   │   └── productRoutes.js
+│   │   └── userRoutes.js
 │   ├── util/
 │   │   └── errorHandler.js
 │   │   └── apiFeatures.js   
