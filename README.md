@@ -37,7 +37,8 @@ This project is a full-stack e-commerce web application built using the MERN sta
 │   ├── util/
 │   │   └── errorHandler.js   
 │   ├── middleware/           
-│   │   └── error.js          
+│   │   └── error.js 
+│   │   └── catchAsyncErrors.js
 │   └── server.js             
 ├── frontend/                  
 ├── package.json              
