@@ -36,7 +36,8 @@ E-COMMERCE-PROJECT
 │   ├── controllers/
 │   │   └── productController.js  
 │   ├── models/
-│   │   └── productModel.js  
+│   │   └── productModel.js
+│   │   └── userModel.js    
 │   ├── routes/
 │   │   └── productRoutes.js  
 │   ├── util/
