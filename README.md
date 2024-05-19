@@ -40,7 +40,8 @@ E-COMMERCE-PROJECT
 │   ├── routes/
 │   │   └── productRoutes.js  
 │   ├── util/
-│   │   └── errorHandler.js   
+│   │   └── errorHandler.js
+│   │   └── apiFeatures.js   
 │   ├── middleware/           
 │   │   └── error.js 
 │   │   └── catchAsyncErrors.js
