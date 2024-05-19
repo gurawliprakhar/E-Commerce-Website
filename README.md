@@ -30,23 +30,28 @@ This project is a full-stack e-commerce web application built using the MERN sta
 ```
 E-COMMERCE-PROJECT
 ├── backend/
-│   ├── config/
+│   ├── config
 │   │   ├── config.env        
 │   │   └── database.js      
-│   ├── controllers/
-│   │   └── productController.js  
-│   ├── models/
-│   │   └── productModel.js
-│   │   └── userModel.js    
-│   ├── routes/
-│   │   └── productRoutes.js  
-│   ├── util/
-│   │   └── errorHandler.js
-│   │   └── apiFeatures.js   
-│   ├── middleware/           
+│   ├── controllers
+│   │   └── productController.js
+│   │   └── userController.js
+│   ├── middleware
+│   │   └── auth.js      
 │   │   └── error.js 
 │   │   └── catchAsyncErrors.js
-│   └── server.js             
+│   ├── models
+│   │   └── productModel.js
+│   │   └── userModel.js    
+│   ├── routes
+│   │   └── productRoutes.js
+│   │   └── userRoutes.js
+│   ├── util
+│   │   └── errorHandler.js
+│   │   └── apiFeatures.js
+│   │   └── jwtToken.js
+│   └── server.js
+│   └── app.js 
 ├── frontend/                  
 ├── package.json              
 └── package-lock.json         
