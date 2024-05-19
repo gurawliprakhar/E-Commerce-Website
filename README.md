@@ -1,3 +1,6 @@
+Your README for the e-commerce project is looking comprehensive! I've incorporated the new section on API Testing with Thunder Client, adjusted a few details for clarity, and ensured consistency in formatting. Here's the updated version of your README:
+
+---
 
 # E Commerce Website
 
@@ -17,13 +20,15 @@ This project is a full-stack e-commerce web application built using the MERN sta
 
 ## Technology Stack
 
-- **Front-end:** React.js, 
+- **Front-end:** React.js
 - **Back-end:** Node.js, Express.js
 - **Database:** MongoDB, Mongoose
 - **Authentication:** JWT (JSON Web Token)
 
 ## Project Structure
- E-COMMERCE-PROJECT
+
+```
+E-COMMERCE-PROJECT
 ├── backend/
 │   ├── config/
 │   │   ├── config.env        
@@ -43,8 +48,7 @@ This project is a full-stack e-commerce web application built using the MERN sta
 ├── frontend/                  
 ├── package.json              
 └── package-lock.json         
-
-
+```
 
 ## Installation
 
@@ -148,6 +152,6 @@ This project is licensed under the MIT License.
 ## Contact
 
 For any inquiries or issues, please contact [gurawliprakhar@gmail.com](mailto:gurawliprakhar@gmail.com).
-```
 
-This README now includes a section on using Thunder Client for testing API endpoints, which should help users understand how to utilize the tool for your e-commerce application. Adjust the details such as `yourusername`, `your_mongodb_uri`, `your_jwt_secret`, and ensure that the installation steps and usage instructions are clear for potential contributors or users of your project.
+---
+
