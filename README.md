@@ -34,7 +34,8 @@ E-COMMERCE-PROJECT
 │   │   ├── config.env        
 │   │   └── database.js      
 │   ├── controllers/
-│   │   └── productController.js  
+│   │   └── productController.js
+│   │   └── userController.js 
 │   ├── models/
 │   │   └── productModel.js
 │   │   └── userModel.js    
