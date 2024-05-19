@@ -34,10 +34,13 @@ This project is a full-stack e-commerce web application built using the MERN sta
 │   │   └── productModel.js 
 │   ├── routes/
 │   │   └── productRoutes.js 
+│   ├── util/
+│   │   └── errorHandler.js   
 │   └── server.js
-├── frontend
+├── frontend/
 ├── package.json
 └── package-lock.json
+
 
 ## Installation
 
