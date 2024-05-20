@@ -36,6 +36,7 @@ E-COMMERCE-PROJECT
 │   ├── controllers
 │   │   └── productController.js
 │   │   └── userController.js
+│   │   └── orderController.js
 │   ├── middleware
 │   │   └── auth.js      
 │   │   └── error.js 
