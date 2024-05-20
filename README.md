@@ -42,7 +42,8 @@ E-COMMERCE-PROJECT
 │   │   └── catchAsyncErrors.js
 │   ├── models
 │   │   └── productModel.js
-│   │   └── userModel.js    
+│   │   └── userModel.js
+│   │   └── orderModel.js    
 │   ├── routes
 │   │   └── productRoutes.js
 │   │   └── userRoutes.js
