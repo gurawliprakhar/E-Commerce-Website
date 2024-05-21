@@ -85,6 +85,7 @@ E-COMMERCE-PROJECT
 │   │   │   └── Product
 │   │   │        └── ProductDetails.js
 │   │   │        └── ProductDetails.css
+│   │   │        └── ReviewCard.js
 │   │   ├── constants
 │   │   │   └── productConstants.js
 │   │   ├── images
