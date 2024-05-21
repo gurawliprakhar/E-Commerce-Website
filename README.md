@@ -78,6 +78,9 @@ E-COMMERCE-PROJECT
 │   │   │       │      └── Footer.css
 │   │   │       ├── Header 
 │   │   │       │     └── header.js
+│   │   │       ├── Loader
+│   │   │       │     └── Loader.js
+│   │   │       │     └── Loader.css
 │   │   │       └── MetaData.js
 │   │   ├── constants
 │   │   │   └── productConstants.js
