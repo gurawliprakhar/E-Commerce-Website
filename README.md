@@ -69,6 +69,7 @@ E-COMMERCE-PROJECT
 │   │   │   └── Home
 │   │   │        └── Home.js
 │   │   │        └── Home.css
+│   │   │        └── ProductCard.js
 │   │   │   └── layout
 │   │   │       ├── Footer
 │   │   │       │      └── Footer.js
