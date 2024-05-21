@@ -36,16 +36,19 @@ E-COMMERCE-PROJECT
 │   ├── controllers
 │   │   └── productController.js
 │   │   └── userController.js
+│   │   └── orderController.js
 │   ├── middleware
 │   │   └── auth.js      
 │   │   └── error.js 
 │   │   └── catchAsyncErrors.js
 │   ├── models
 │   │   └── productModel.js
-│   │   └── userModel.js    
+│   │   └── userModel.js
+│   │   └── orderModel.js    
 │   ├── routes
 │   │   └── productRoutes.js
 │   │   └── userRoutes.js
+│   │   └── orderRoutes.js
 │   ├── util
 │   │   └── errorHandler.js
 │   │   └── apiFeatures.js
@@ -53,7 +56,25 @@ E-COMMERCE-PROJECT
 │   │   └── sendEmail.js
 │   └── server.js
 │   └── app.js 
-├── frontend/                  
+├── frontend
+│   ├── public
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── logo192.png
+│   │   ├── logo512.png
+│   │   ├── manifest.json
+│   │   └── robots.txt
+│   ├── src
+│   │   ├── components
+│   │   │   └── layout
+│   │   │       └── header.js
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── .gitignore
+│   ├── package-lock.json
+│   ├── package.json
+│   └── README.md               
 ├── package.json              
 └── package-lock.json         
 ```
