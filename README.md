@@ -69,19 +69,21 @@ E-COMMERCE-PROJECT
 │   │   │   └── productActions.js
 │   │   ├── components
 │   │   │   └── Home
-│   │   │        └── Home.js
-│   │   │        └── Home.css
-│   │   │        └── ProductCard.js
+│   │   │   │     └── Home.js
+│   │   │   │     └── Home.css
+│   │   │   │     └── ProductCard.js
 │   │   │   └── layout
-│   │   │       ├── Footer
-│   │   │       │      └── Footer.js
-│   │   │       │      └── Footer.css
-│   │   │       ├── Header 
-│   │   │       │     └── header.js
-│   │   │       ├── Loader
-│   │   │       │     └── Loader.js
-│   │   │       │     └── Loader.css
-│   │   │       └── MetaData.js
+│   │   │   │    ├── Footer
+│   │   │   │    │      └── Footer.js
+│   │   │   │    │      └── Footer.css
+│   │   │   │    ├── Header 
+│   │   │   │    │     └── header.js
+│   │   │   │    ├── Loader
+│   │   │   │    │     └── Loader.js
+│   │   │   │    │     └── Loader.css
+│   │   │   │    └── MetaData.js
+│   │   │   └── Product
+│   │   │   │    └── ProductData.js
 │   │   ├── constants
 │   │   │   └── productConstants.js
 │   │   ├── images
