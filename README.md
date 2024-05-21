@@ -79,6 +79,7 @@ E-COMMERCE-PROJECT
 │   │   │       │     └── header.js
 │   │   │       └── MetaData.js
 │   │   ├── constants
+│   │   │   └── productConstants.js
 │   │   ├── images
 │   │   │   └── Appsore.png
 │   │   │   └── cover.jfif
@@ -87,6 +88,7 @@ E-COMMERCE-PROJECT
 │   │   │   └── playstore.png
 │   │   │   └── profile.png
 │   │   ├── reducer
+│   │   │   └── productReducer.js
 │   │   ├── App.css
 │   │   ├── App.js
 │   │   └── index.js
