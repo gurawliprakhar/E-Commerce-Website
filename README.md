@@ -87,6 +87,7 @@ E-COMMERCE-PROJECT
 │   │   ├── App.css
 │   │   ├── App.js
 │   │   └── index.js
+│   │   ├── store.js
 │   ├── .gitignore
 │   ├── package-lock.json
 │   ├── package.json
