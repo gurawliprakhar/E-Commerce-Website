@@ -1,7 +1,3 @@
-Your README for the e-commerce project is looking comprehensive! I've incorporated the new section on API Testing with Thunder Client, adjusted a few details for clarity, and ensured consistency in formatting. Here's the updated version of your README:
-
----
-
 # E Commerce Website
 
 ## Description
@@ -69,16 +65,23 @@ E-COMMERCE-PROJECT
 │   │   │   └── productActions.js
 │   │   ├── components
 │   │   │   └── Home
-│   │   │        └── Home.js
-│   │   │        └── Home.css
-│   │   │        └── ProductCard.js
+│   │   │   │     └── Home.js
+│   │   │   │     └── Home.css
+│   │   │   │     └── ProductCard.js
 │   │   │   └── layout
-│   │   │       ├── Footer
-│   │   │       │      └── Footer.js
-│   │   │       │      └── Footer.css
-│   │   │       ├── Header 
-│   │   │       │     └── header.js
-│   │   │       └── MetaData.js
+│   │   │   │    ├── Footer
+│   │   │   │    │      └── Footer.js
+│   │   │   │    │      └── Footer.css
+│   │   │   │    ├── Header 
+│   │   │   │    │     └── header.js
+│   │   │   │    ├── Loader
+│   │   │   │    │     └── Loader.js
+│   │   │   │    │     └── Loader.css
+│   │   │   │    └── MetaData.js
+│   │   │   └── Product
+│   │   │        └── ProductDetails.js
+│   │   │        └── ProductDetails.css
+│   │   │        └── ReviewCard.js
 │   │   ├── constants
 │   │   │   └── productConstants.js
 │   │   ├── images
