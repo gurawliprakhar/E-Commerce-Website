@@ -84,6 +84,7 @@ E-COMMERCE-PROJECT
 │   │   │   │    └── MetaData.js
 │   │   │   └── Product
 │   │   │        └── ProductDetails.js
+│   │   │        └── ProductDetails.css
 │   │   ├── constants
 │   │   │   └── productConstants.js
 │   │   ├── images
