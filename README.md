@@ -68,6 +68,7 @@ E-COMMERCE-PROJECT
 │   │   ├── components
 │   │   │   └── Home
 │   │   │        └── Home.js
+│   │   │        └── Home.css
 │   │   │   └── layout
 │   │   │       ├── Footer
 │   │   │       │      └── Footer.js
