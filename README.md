@@ -83,7 +83,7 @@ E-COMMERCE-PROJECT
 │   │   │   │    │     └── Loader.css
 │   │   │   │    └── MetaData.js
 │   │   │   └── Product
-│   │   │   │    └── ProductData.js
+│   │   │        └── ProductDetails.js
 │   │   ├── constants
 │   │   │   └── productConstants.js
 │   │   ├── images
