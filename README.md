@@ -66,6 +66,8 @@ E-COMMERCE-PROJECT
 │   │   └── robots.txt
 │   ├── src
 │   │   ├── components
+│   │   │   └── Home
+│   │   │        └── Home.js
 │   │   │   └── layout
 │   │   │       ├── Footer
 │   │   │       │      └── Footer.js
