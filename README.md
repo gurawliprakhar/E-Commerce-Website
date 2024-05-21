@@ -75,7 +75,8 @@ E-COMMERCE-PROJECT
 │   │   │       │      └── Footer.js
 │   │   │       │      └── Footer.css
 │   │   │       ├── Header 
-│   │   │            └── header.js
+│   │   │       │     └── header.js
+│   │   │       └── MetaData.js
 │   │   ├── images
 │   │   │   └── Appsore.png
 │   │   │   └── cover.jfif
