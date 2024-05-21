@@ -1,7 +1,3 @@
-Your README for the e-commerce project is looking comprehensive! I've incorporated the new section on API Testing with Thunder Client, adjusted a few details for clarity, and ensured consistency in formatting. Here's the updated version of your README:
-
----
-
 # E Commerce Website
 
 ## Description
