@@ -20,7 +20,7 @@ This project is a full-stack e-commerce web application built using the MERN sta
 
 ## Technology Stack
 
-- **Front-end:** React.js
+- **Front-end:** React.js,Redux
 - **Back-end:** Node.js, Express.js
 - **Database:** MongoDB, Mongoose
 - **Authentication:** JWT (JSON Web Token)
