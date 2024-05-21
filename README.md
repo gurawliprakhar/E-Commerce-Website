@@ -20,7 +20,7 @@ This project is a full-stack e-commerce web application built using the MERN sta
 
 ## Technology Stack
 
-- **Front-end:** React.js
+- **Front-end:** React.js,Redux
 - **Back-end:** Node.js, Express.js
 - **Database:** MongoDB, Mongoose
 - **Authentication:** JWT (JSON Web Token)
@@ -65,12 +65,35 @@ E-COMMERCE-PROJECT
 │   │   ├── manifest.json
 │   │   └── robots.txt
 │   ├── src
+│   │   ├── actions
+│   │   │   └── productActions.js
 │   │   ├── components
+│   │   │   └── Home
+│   │   │        └── Home.js
+│   │   │        └── Home.css
+│   │   │        └── ProductCard.js
 │   │   │   └── layout
-│   │   │       └── header.js
+│   │   │       ├── Footer
+│   │   │       │      └── Footer.js
+│   │   │       │      └── Footer.css
+│   │   │       ├── Header 
+│   │   │       │     └── header.js
+│   │   │       └── MetaData.js
+│   │   ├── constants
+│   │   │   └── productConstants.js
+│   │   ├── images
+│   │   │   └── Appsore.png
+│   │   │   └── cover.jfif
+│   │   │   └── cursor.png
+│   │   │   └── logo.png
+│   │   │   └── playstore.png
+│   │   │   └── profile.png
+│   │   ├── reducer
+│   │   │   └── productReducer.js
 │   │   ├── App.css
 │   │   ├── App.js
 │   │   └── index.js
+│   │   ├── store.js
 │   ├── .gitignore
 │   ├── package-lock.json
 │   ├── package.json
