@@ -68,9 +68,9 @@ E-COMMERCE-PROJECT
 │   │   ├── components
 │   │   │   └── layout
 │   │   │       ├── Footer
-│   │   │             └── Footer.js
+│   │   │       │      └── Footer.js
 │   │   │       ├── Header 
-│   │   │             └── header.js
+│   │   │            └── header.js
 │   │   ├── App.css
 │   │   ├── App.js
 │   │   └── index.js
