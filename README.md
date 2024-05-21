@@ -76,6 +76,13 @@ E-COMMERCE-PROJECT
 │   │   │       │      └── Footer.css
 │   │   │       ├── Header 
 │   │   │            └── header.js
+│   │   ├── images
+│   │   │   └── Appsore.png
+│   │   │   └── cover.jfif
+│   │   │   └── cursor.png
+│   │   │   └── logo.png
+│   │   │   └── playstore.png
+│   │   │   └── profile.png
 │   │   ├── App.css
 │   │   ├── App.js
 │   │   └── index.js
