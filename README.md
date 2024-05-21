@@ -65,6 +65,7 @@ E-COMMERCE-PROJECT
 │   │   ├── manifest.json
 │   │   └── robots.txt
 │   ├── src
+│   │   ├── actions
 │   │   ├── components
 │   │   │   └── Home
 │   │   │        └── Home.js
@@ -84,6 +85,7 @@ E-COMMERCE-PROJECT
 │   │   │   └── logo.png
 │   │   │   └── playstore.png
 │   │   │   └── profile.png
+│   │   ├── reducer
 │   │   ├── App.css
 │   │   ├── App.js
 │   │   └── index.js
