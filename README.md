@@ -105,6 +105,7 @@ E-COMMERCE-PROJECT
 │   │   │   │    └── ResetPassword.js
 │   │   │   │    └── ResetPassword.css
 │   │   ├── constants
+│   │   │   └── cartConstants.js
 │   │   │   └── productConstants.js
 │   │   │   └── userConstants.js
 │   │   ├── images
@@ -115,6 +116,7 @@ E-COMMERCE-PROJECT
 │   │   │   └── playstore.png
 │   │   │   └── profile.png
 │   │   ├── reducer
+│   │   │   └── cartReducer.js
 │   │   │   └── productReducer.js
 │   │   │   └── usertReducer.js
 │   │   ├── App.css
