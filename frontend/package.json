@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/lab": "^4.0.0-alpha.61",
     "@mui/icons-material": "^5.15.18",
     "@mui/material": "^5.15.18",
     "@mui/styles": "^5.15.18",
@@ -11,10 +12,10 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.1",
     "overlay-navbar": "^1.2.3",
-    "react": "^18.3.1",
-    "react-alert": "^7.0.3",
+    "react": "^18.2.0",  // Downgrade React to a compatible version if needed
+    "react-alert": "^7.0.3",  // Or consider replacing this package
     "react-alert-template-basic": "^1.0.2",
-    "react-dom": "^18.3.1",
+    "react-dom": "^18.2.0",  // Downgrade React DOM to match React version
     "react-helmet": "^6.1.0",
     "react-material-ui-carousel": "^3.4.2",
     "react-rating-stars-component": "^2.2.0",
