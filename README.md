@@ -74,7 +74,9 @@ E-COMMERCE-PROJECT
 │   │   │   │    │      └── Footer.js
 │   │   │   │    │      └── Footer.css
 │   │   │   │    ├── Header 
-│   │   │   │    │     └── header.js
+│   │   │   │    │     └── Header.js
+│   │   │   │    │     └── Header.css
+│   │   │   │    │     └── UserOptions.js
 │   │   │   │    ├── Loader
 │   │   │   │    │     └── Loader.js
 │   │   │   │    │     └── Loader.css
