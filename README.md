@@ -79,9 +79,12 @@ E-COMMERCE-PROJECT
 │   │   │   │    │     └── Loader.css
 │   │   │   │    └── MetaData.js
 │   │   │   └── Product
-│   │   │        └── ProductDetails.js
-│   │   │        └── ProductDetails.css
-│   │   │        └── ReviewCard.js
+│   │   │   │    └── ProductDetails.js
+│   │   │   │    └── ProductDetails.css
+│   │   │   │    └── ReviewCard.js
+│   │   │   └── User
+│   │   │   │    └── LoginSignup.js
+│   │   │   │    └── LoginSignup.css
 │   │   ├── constants
 │   │   │   └── productConstants.js
 │   │   ├── images
