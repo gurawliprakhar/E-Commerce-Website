@@ -102,6 +102,8 @@ E-COMMERCE-PROJECT
 │   │   │   │    └── UpdatePassword.js
 │   │   │   │    └── UpdateProfile.js
 │   │   │   │    └── UpdateProfile.css
+│   │   │   │    └── ResetPassword.js
+│   │   │   │    └── ResetPassword.css
 │   │   ├── constants
 │   │   │   └── productConstants.js
 │   │   │   └── userConstants.js
