@@ -69,6 +69,8 @@ E-COMMERCE-PROJECT
 │   │   │   └── Cart
 │   │   │   │     └── Cart.js
 │   │   │   │     └── Cart.css
+│   │   │   │     └── CartItemCard.css
+│   │   │   │     └── CartItemCard.js
 │   │   │   └── Home
 │   │   │   │     └── Home.js
 │   │   │   │     └── Home.css
