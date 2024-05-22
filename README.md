@@ -85,6 +85,12 @@ E-COMMERCE-PROJECT
 │   │   │   │    └── ProductDetails.js
 │   │   │   │    └── ProductDetails.css
 │   │   │   │    └── ReviewCard.js
+│   │   │   │    └── Products.js
+│   │   │   │    └── Products.css
+│   │   │   │    └── Search.js
+│   │   │   │    └── Search.css
+│   │   │   └── Route
+│   │   │   │    └── ProtectedRoute.js
 │   │   │   └── User
 │   │   │   │    └── LoginSignup.js
 │   │   │   │    └── LoginSignup.css
