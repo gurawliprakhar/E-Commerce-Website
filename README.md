@@ -87,6 +87,7 @@ E-COMMERCE-PROJECT
 │   │   │   │    └── LoginSignup.css
 │   │   ├── constants
 │   │   │   └── productConstants.js
+│   │   │   └── userConstants.js
 │   │   ├── images
 │   │   │   └── Appsore.png
 │   │   │   └── cover.jfif
@@ -96,6 +97,7 @@ E-COMMERCE-PROJECT
 │   │   │   └── profile.png
 │   │   ├── reducer
 │   │   │   └── productReducer.js
+│   │   │   └── usertReducer.js
 │   │   ├── App.css
 │   │   ├── App.js
 │   │   └── index.js
