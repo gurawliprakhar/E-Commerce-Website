@@ -72,9 +72,11 @@ E-COMMERCE-PROJECT
 │   │   │   │     └── CartItemCard.css
 │   │   │   │     └── CartItemCard.js
 │   │   │   │     └── Shipping.js
+│   │   │   │     └── Shipping.css
 │   │   │   │     └── CheckOutSteps.js
 │   │   │   │     └── CheckOutSteps.css
-│   │   │   │     └── Shipping.css
+│   │   │   │     └── ConfirmOrder.js
+│   │   │   │     └── ConfirmOrder.css
 │   │   │   └── Home
 │   │   │   │     └── Home.js
 │   │   │   │     └── Home.css
