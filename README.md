@@ -66,6 +66,9 @@ E-COMMERCE-PROJECT
 │   │   │   └── productAction.js
 │   │   │   └── userAction.js
 │   │   ├── components
+│   │   │   └── Cart
+│   │   │   │     └── Cart.js
+│   │   │   │     └── Cart.css
 │   │   │   └── Home
 │   │   │   │     └── Home.js
 │   │   │   │     └── Home.css
