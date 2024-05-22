@@ -62,7 +62,9 @@ E-COMMERCE-PROJECT
 │   │   └── robots.txt
 │   ├── src
 │   │   ├── actions
-│   │   │   └── productActions.js
+│   │   │   └── cartAction.js
+│   │   │   └── productAction.js
+│   │   │   └── userAction.js
 │   │   ├── components
 │   │   │   └── Home
 │   │   │   │     └── Home.js
@@ -73,17 +75,40 @@ E-COMMERCE-PROJECT
 │   │   │   │    │      └── Footer.js
 │   │   │   │    │      └── Footer.css
 │   │   │   │    ├── Header 
-│   │   │   │    │     └── header.js
+│   │   │   │    │     └── Header.js
+│   │   │   │    │     └── Header.css
+│   │   │   │    │     └── UserOptions.js
 │   │   │   │    ├── Loader
 │   │   │   │    │     └── Loader.js
 │   │   │   │    │     └── Loader.css
 │   │   │   │    └── MetaData.js
 │   │   │   └── Product
-│   │   │        └── ProductDetails.js
-│   │   │        └── ProductDetails.css
-│   │   │        └── ReviewCard.js
+│   │   │   │    └── ProductDetails.js
+│   │   │   │    └── ProductDetails.css
+│   │   │   │    └── ReviewCard.js
+│   │   │   │    └── Products.js
+│   │   │   │    └── Products.css
+│   │   │   │    └── Search.js
+│   │   │   │    └── Search.css
+│   │   │   └── Route
+│   │   │   │    └── ProtectedRoute.js
+│   │   │   └── User
+│   │   │   │    └── FrogetPassword.css
+│   │   │   │    └── ForgetPassword.js
+│   │   │   │    └── LoginSignup.js
+│   │   │   │    └── LoginSignup.css
+│   │   │   │    └── Profile.css
+│   │   │   │    └── Profile.js
+│   │   │   │    └── UpdatePassword.css
+│   │   │   │    └── UpdatePassword.js
+│   │   │   │    └── UpdateProfile.js
+│   │   │   │    └── UpdateProfile.css
+│   │   │   │    └── ResetPassword.js
+│   │   │   │    └── ResetPassword.css
 │   │   ├── constants
+│   │   │   └── cartConstants.js
 │   │   │   └── productConstants.js
+│   │   │   └── userConstants.js
 │   │   ├── images
 │   │   │   └── Appsore.png
 │   │   │   └── cover.jfif
@@ -92,7 +117,9 @@ E-COMMERCE-PROJECT
 │   │   │   └── playstore.png
 │   │   │   └── profile.png
 │   │   ├── reducer
+│   │   │   └── cartReducer.js
 │   │   │   └── productReducer.js
+│   │   │   └── usertReducer.js
 │   │   ├── App.css
 │   │   ├── App.js
 │   │   └── index.js
