@@ -66,6 +66,17 @@ E-COMMERCE-PROJECT
 │   │   │   └── productAction.js
 │   │   │   └── userAction.js
 │   │   ├── components
+│   │   │   └── Cart
+│   │   │   │     └── Cart.js
+│   │   │   │     └── Cart.css
+│   │   │   │     └── CartItemCard.css
+│   │   │   │     └── CartItemCard.js
+│   │   │   │     └── Shipping.js
+│   │   │   │     └── Shipping.css
+│   │   │   │     └── CheckOutSteps.js
+│   │   │   │     └── CheckOutSteps.css
+│   │   │   │     └── ConfirmOrder.js
+│   │   │   │     └── ConfirmOrder.css
 │   │   │   └── Home
 │   │   │   │     └── Home.js
 │   │   │   │     └── Home.css
