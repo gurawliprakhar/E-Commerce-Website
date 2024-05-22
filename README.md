@@ -96,6 +96,8 @@ E-COMMERCE-PROJECT
 │   │   │   │    └── LoginSignup.css
 │   │   │   │    └── Profile.css
 │   │   │   │    └── Profile.js
+│   │   │   │    └── UpdatePassword.css
+│   │   │   │    └── UpdatePassword.js
 │   │   │   │    └── UpdateProfile.js
 │   │   │   │    └── UpdateProfile.css
 │   │   ├── constants
