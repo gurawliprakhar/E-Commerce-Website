@@ -1,38 +1,57 @@
 import React, { Fragment, useState, useEffect } from "react";
-import "./UpdatePassword.css";
+import "./UpdateProfile.css";
 import Loader from "../layout/Loader/Loader";
+import MailOutlineIcon from "@material-ui/icons/MailOutline";
+import FaceIcon from "@material-ui/icons/Face";
 import { useDispatch, useSelector } from "react-redux";
-import { clearErrors, updatePassword } from "../../actions/userAction";
+import { clearErrors, updateProfile, loadUser } from "../../actions/userAction";
 import { useAlert } from "react-alert";
-import { UPDATE_PASSWORD_RESET } from "../../constants/userConstants";
+import { UPDATE_PROFILE_RESET } from "../../constants/userConstants";
 import MetaData from "../layout/MetaData";
-import LockOpenIcon from "@material-ui/icons/LockOpen";
-import LockIcon from "@material-ui/icons/Lock";
-import VpnKeyIcon from "@material-ui/icons/VpnKey";
 
-const UpdatePassword = ({ history }) => {
+const UpdateProfile = ({ history }) => {
   const dispatch = useDispatch();
   const alert = useAlert();
 
+  const { user } = useSelector((state) => state.user);
   const { error, isUpdated, loading } = useSelector((state) => state.profile);
 
-  const [oldPassword, setOldPassword] = useState("");
-  const [newPassword, setNewPassword] = useState("");
-  const [confirmPassword, setConfirmPassword] = useState("");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [avatar, setAvatar] = useState();
+  const [avatarPreview, setAvatarPreview] = useState("/Profile.png");
 
-  const updatePasswordSubmit = (e) => {
+  const updateProfileSubmit = (e) => {
     e.preventDefault();
 
     const myForm = new FormData();
 
-    myForm.set("oldPassword", oldPassword);
-    myForm.set("newPassword", newPassword);
-    myForm.set("confirmPassword", confirmPassword);
+    myForm.set("name", name);
+    myForm.set("email", email);
+    myForm.set("avatar", avatar);
+    dispatch(updateProfile(myForm));
+  };
 
-    dispatch(updatePassword(myForm));
+  const updateProfileDataChange = (e) => {
+    const reader = new FileReader();
+
+    reader.onload = () => {
+      if (reader.readyState === 2) {
+        setAvatarPreview(reader.result);
+        setAvatar(reader.result);
+      }
+    };
+
+    reader.readAsDataURL(e.target.files[0]);
   };
 
   useEffect(() => {
+    if (user) {
+      setName(user.name);
+      setEmail(user.email);
+      setAvatarPreview(user.avatar.url);
+    }
+
     if (error) {
       alert.error(error);
       dispatch(clearErrors());
@@ -40,65 +59,67 @@ const UpdatePassword = ({ history }) => {
 
     if (isUpdated) {
       alert.success("Profile Updated Successfully");
+      dispatch(loadUser());
 
       history.push("/account");
 
       dispatch({
-        type: UPDATE_PASSWORD_RESET,
+        type: UPDATE_PROFILE_RESET,
       });
     }
-  }, [dispatch, error, alert, history, isUpdated]);
-
+  }, [dispatch, error, alert, history, user, isUpdated]);
   return (
     <Fragment>
       {loading ? (
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="Change Password" />
-          <div className="updatePasswordContainer">
-            <div className="updatePasswordBox">
-              <h2 className="updatePasswordHeading">Update Profile</h2>
+          <MetaData title="Update Profile" />
+          <div className="updateProfileContainer">
+            <div className="updateProfileBox">
+              <h2 className="updateProfileHeading">Update Profile</h2>
 
               <form
-                className="updatePasswordForm"
-                onSubmit={updatePasswordSubmit}
+                className="updateProfileForm"
+                encType="multipart/form-data"
+                onSubmit={updateProfileSubmit}
               >
-                <div className="loginPassword">
-                  <VpnKeyIcon />
+                <div className="updateProfileName">
+                  <FaceIcon />
                   <input
-                    type="password"
-                    placeholder="Old Password"
+                    type="text"
+                    placeholder="Name"
                     required
-                    value={oldPassword}
-                    onChange={(e) => setOldPassword(e.target.value)}
+                    name="name"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                  />
+                </div>
+                <div className="updateProfileEmail">
+                  <MailOutlineIcon />
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    required
+                    name="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
 
-                <div className="loginPassword">
-                  <LockOpenIcon />
+                <div id="updateProfileImage">
+                  <img src={avatarPreview} alt="Avatar Preview" />
                   <input
-                    type="password"
-                    placeholder="New Password"
-                    required
-                    value={newPassword}
-                    onChange={(e) => setNewPassword(e.target.value)}
-                  />
-                </div>
-                <div className="loginPassword">
-                  <LockIcon />
-                  <input
-                    type="password"
-                    placeholder="Confirm Password"
-                    required
-                    value={confirmPassword}
-                    onChange={(e) => setConfirmPassword(e.target.value)}
+                    type="file"
+                    name="avatar"
+                    accept="image/*"
+                    onChange={updateProfileDataChange}
                   />
                 </div>
                 <input
                   type="submit"
-                  value="Change"
-                  className="updatePasswordBtn"
+                  value="Update"
+                  className="updateProfileBtn"
                 />
               </form>
             </div>
@@ -109,4 +130,4 @@ const UpdatePassword = ({ history }) => {
   );
 };
 
-export default UpdatePassword;
+export default UpdateProfile;
