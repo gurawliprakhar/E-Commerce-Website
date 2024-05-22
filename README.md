@@ -92,6 +92,8 @@ E-COMMERCE-PROJECT
 │   │   │   └── Route
 │   │   │   │    └── ProtectedRoute.js
 │   │   │   └── User
+│   │   │   │    └── FrogetPassword.css
+│   │   │   │    └── ForgetPassword.js
 │   │   │   │    └── LoginSignup.js
 │   │   │   │    └── LoginSignup.css
 │   │   │   │    └── Profile.css
