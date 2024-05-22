@@ -62,7 +62,8 @@ E-COMMERCE-PROJECT
 │   │   └── robots.txt
 │   ├── src
 │   │   ├── actions
-│   │   │   └── productActions.js
+│   │   │   └── productAction.js
+│   │   │   └── userAction.js
 │   │   ├── components
 │   │   │   └── Home
 │   │   │   │     └── Home.js
