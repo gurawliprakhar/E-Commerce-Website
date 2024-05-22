@@ -88,6 +88,8 @@ E-COMMERCE-PROJECT
 │   │   │   └── User
 │   │   │   │    └── LoginSignup.js
 │   │   │   │    └── LoginSignup.css
+│   │   │   │    └── Profile.css
+│   │   │   │    └── Profile.js
 │   │   ├── constants
 │   │   │   └── productConstants.js
 │   │   │   └── userConstants.js
