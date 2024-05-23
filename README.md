@@ -133,6 +133,7 @@ E-COMMERCE-PROJECT
 │   │   │   └── profile.png
 │   │   ├── reducer
 │   │   │   └── cartReducer.js
+│   │   │   └── orderReducer.js
 │   │   │   └── productReducer.js
 │   │   │   └── usertReducer.js
 │   │   ├── App.css
