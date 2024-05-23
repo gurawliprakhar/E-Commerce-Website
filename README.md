@@ -125,6 +125,7 @@ E-COMMERCE-PROJECT
 │   │   │   │    └── ResetPassword.css
 │   │   ├── constants
 │   │   │   └── cartConstants.js
+│   │   │   └── orderConstants.js
 │   │   │   └── productConstants.js
 │   │   │   └── userConstants.js
 │   │   ├── images
