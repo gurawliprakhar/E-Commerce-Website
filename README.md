@@ -75,6 +75,8 @@ E-COMMERCE-PROJECT
 │   │   │   │     └── NewProduct.js
 │   │   │   │     └── NewProduct.css
 │   │   │   │     └── OrderList.js
+│   │   │   │     └── ProcesOrder.js
+│   │   │   │     └── ProcessOrder.css
 │   │   │   │     └── ProductList.js
 │   │   │   │     └── ProductList.css
 │   │   │   │     └── UpdateProudct.js
