@@ -107,6 +107,9 @@ E-COMMERCE-PROJECT
 │   │   │   │    ├── About
 │   │   │   │    │      └── About.js
 │   │   │   │    │      └── aboutSection.css
+│   │   │   │    ├── Contact
+│   │   │   │    │      └── Contact.js
+│   │   │   │    │      └── Contact.css
 │   │   │   │    ├── Footer
 │   │   │   │    │      └── Footer.js
 │   │   │   │    │      └── Footer.css
