@@ -44,6 +44,7 @@ E-COMMERCE-PROJECT
 │   │   └── orderModel.js    
 │   ├── routes
 │   │   └── productRoutes.js
+│   │   └── paymentRoutes.js
 │   │   └── userRoutes.js
 │   │   └── orderRoutes.js
 │   ├── util
