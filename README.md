@@ -81,6 +81,7 @@ E-COMMERCE-PROJECT
 │   │   │   │     └── ProductList.js
 │   │   │   │     └── ProductList.css
 │   │   │   │     └── UpdateProudct.js
+│   │   │   │     └── UpdateUser.js
 │   │   │   │     └── Sidebar.js
 │   │   │   │     └── Sidebar.css
 │   │   │   └── Cart
