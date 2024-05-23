@@ -30,6 +30,7 @@ E-COMMERCE-PROJECT
 │   │   ├── config.env        
 │   │   └── database.js      
 │   ├── controllers
+│   │   └── paymentController.js
 │   │   └── productController.js
 │   │   └── userController.js
 │   │   └── orderController.js
@@ -43,6 +44,7 @@ E-COMMERCE-PROJECT
 │   │   └── orderModel.js    
 │   ├── routes
 │   │   └── productRoutes.js
+│   │   └── paymentRoutes.js
 │   │   └── userRoutes.js
 │   │   └── orderRoutes.js
 │   ├── util
@@ -63,6 +65,7 @@ E-COMMERCE-PROJECT
 │   ├── src
 │   │   ├── actions
 │   │   │   └── cartAction.js
+│   │   │   └── orderAction.js
 │   │   │   └── productAction.js
 │   │   │   └── userAction.js
 │   │   ├── components
@@ -73,6 +76,8 @@ E-COMMERCE-PROJECT
 │   │   │   │     └── CartItemCard.js
 │   │   │   │     └── Shipping.js
 │   │   │   │     └── Shipping.css
+│   │   │   │     └── OrderSuccess.js
+│   │   │   │     └── OrderSuccess.css
 │   │   │   │     └── CheckOutSteps.js
 │   │   │   │     └── CheckOutSteps.css
 │   │   │   │     └── ConfirmOrder.js
@@ -93,6 +98,11 @@ E-COMMERCE-PROJECT
 │   │   │   │    │     └── Loader.js
 │   │   │   │    │     └── Loader.css
 │   │   │   │    └── MetaData.js
+│   │   │   └── Order
+│   │   │   │    └── MyOrder.css
+│   │   │   │    └── MyOrder.js
+│   │   │   │    └── OrderDetail.js
+│   │   │   │    └── OrderDetail.css
 │   │   │   └── Product
 │   │   │   │    └── ProductDetails.js
 │   │   │   │    └── ProductDetails.css
@@ -110,6 +120,8 @@ E-COMMERCE-PROJECT
 │   │   │   │    └── LoginSignup.css
 │   │   │   │    └── Profile.css
 │   │   │   │    └── Profile.js
+│   │   │   │    └── Payment.js
+│   │   │   │    └── Payment.css
 │   │   │   │    └── UpdatePassword.css
 │   │   │   │    └── UpdatePassword.js
 │   │   │   │    └── UpdateProfile.js
@@ -118,6 +130,7 @@ E-COMMERCE-PROJECT
 │   │   │   │    └── ResetPassword.css
 │   │   ├── constants
 │   │   │   └── cartConstants.js
+│   │   │   └── orderConstants.js
 │   │   │   └── productConstants.js
 │   │   │   └── userConstants.js
 │   │   ├── images
@@ -129,6 +142,7 @@ E-COMMERCE-PROJECT
 │   │   │   └── profile.png
 │   │   ├── reducer
 │   │   │   └── cartReducer.js
+│   │   │   └── orderReducer.js
 │   │   │   └── productReducer.js
 │   │   │   └── usertReducer.js
 │   │   ├── App.css
