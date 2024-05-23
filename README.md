@@ -75,9 +75,15 @@ E-COMMERCE-PROJECT
 │   │   │   │     └── NewProduct.js
 │   │   │   │     └── NewProduct.css
 │   │   │   │     └── OrderList.js
+│   │   │   │     └── ProcesOrder.js
+│   │   │   │     └── UserList.js
+│   │   │   │     └── ProcessOrder.css
 │   │   │   │     └── ProductList.js
 │   │   │   │     └── ProductList.css
 │   │   │   │     └── UpdateProudct.js
+│   │   │   │     └── UpdateUser.js
+│   │   │   │     └── ProductReviews.js
+│   │   │   │     └── ProductReviews.css
 │   │   │   │     └── Sidebar.js
 │   │   │   │     └── Sidebar.css
 │   │   │   └── Cart
