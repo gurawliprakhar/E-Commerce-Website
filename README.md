@@ -104,6 +104,12 @@ E-COMMERCE-PROJECT
 │   │   │   │     └── Home.css
 │   │   │   │     └── ProductCard.js
 │   │   │   └── layout
+│   │   │   │    ├── About
+│   │   │   │    │      └── About.js
+│   │   │   │    │      └── aboutSection.css
+│   │   │   │    ├── Contact
+│   │   │   │    │      └── Contact.js
+│   │   │   │    │      └── Contact.css
 │   │   │   │    ├── Footer
 │   │   │   │    │      └── Footer.js
 │   │   │   │    │      └── Footer.css
@@ -114,6 +120,9 @@ E-COMMERCE-PROJECT
 │   │   │   │    ├── Loader
 │   │   │   │    │     └── Loader.js
 │   │   │   │    │     └── Loader.css
+│   │   │   │    ├── Not Found
+│   │   │   │    │      └── NotFound.js
+│   │   │   │    │      └── NotFound.css
 │   │   │   │    └── MetaData.js
 │   │   │   └── Order
 │   │   │   │    └── MyOrder.css
