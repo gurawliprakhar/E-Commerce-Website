@@ -98,6 +98,9 @@ E-COMMERCE-PROJECT
 │   │   │   │    │     └── Loader.js
 │   │   │   │    │     └── Loader.css
 │   │   │   │    └── MetaData.js
+│   │   │   └── Order
+│   │   │   │    └── MyOrder.css
+│   │   │   │    └── MyOrder.js
 │   │   │   └── Product
 │   │   │   │    └── ProductDetails.js
 │   │   │   │    └── ProductDetails.css
