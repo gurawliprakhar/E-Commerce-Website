@@ -112,6 +112,7 @@ E-COMMERCE-PROJECT
 │   │   │   │    └── LoginSignup.css
 │   │   │   │    └── Profile.css
 │   │   │   │    └── Profile.js
+│   │   │   │    └── Payment.js
 │   │   │   │    └── UpdatePassword.css
 │   │   │   │    └── UpdatePassword.js
 │   │   │   │    └── UpdateProfile.js
