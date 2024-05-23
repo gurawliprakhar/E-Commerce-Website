@@ -30,6 +30,7 @@ E-COMMERCE-PROJECT
 │   │   ├── config.env        
 │   │   └── database.js      
 │   ├── controllers
+│   │   └── paymentController.js
 │   │   └── productController.js
 │   │   └── userController.js
 │   │   └── orderController.js
