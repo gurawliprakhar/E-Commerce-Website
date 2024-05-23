@@ -113,6 +113,7 @@ E-COMMERCE-PROJECT
 │   │   │   │    └── Profile.css
 │   │   │   │    └── Profile.js
 │   │   │   │    └── Payment.js
+│   │   │   │    └── Payment.css
 │   │   │   │    └── UpdatePassword.css
 │   │   │   │    └── UpdatePassword.js
 │   │   │   │    └── UpdateProfile.js
