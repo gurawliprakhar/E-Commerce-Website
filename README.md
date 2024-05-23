@@ -120,6 +120,9 @@ E-COMMERCE-PROJECT
 │   │   │   │    ├── Loader
 │   │   │   │    │     └── Loader.js
 │   │   │   │    │     └── Loader.css
+│   │   │   │    ├── Not Found
+│   │   │   │    │      └── NotFound.js
+│   │   │   │    │      └── NotFound.css
 │   │   │   │    └── MetaData.js
 │   │   │   └── Order
 │   │   │   │    └── MyOrder.css
