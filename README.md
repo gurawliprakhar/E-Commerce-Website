@@ -101,6 +101,8 @@ E-COMMERCE-PROJECT
 │   │   │   └── Order
 │   │   │   │    └── MyOrder.css
 │   │   │   │    └── MyOrder.js
+│   │   │   │    └── OrderDetail.js
+│   │   │   │    └── OrderDetail.css
 │   │   │   └── Product
 │   │   │   │    └── ProductDetails.js
 │   │   │   │    └── ProductDetails.css
