@@ -72,6 +72,8 @@ E-COMMERCE-PROJECT
 │   │   │   └── admin
 │   │   │   │     └── Dashboard.js
 │   │   │   │     └── Dashboard.css
+│   │   │   │     └── Sidebar.js
+│   │   │   │     └── Sidebar.css
 │   │   │   └── Cart
 │   │   │   │     └── Cart.js
 │   │   │   │     └── Cart.css
