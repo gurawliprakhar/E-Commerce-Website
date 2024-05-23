@@ -69,9 +69,15 @@ E-COMMERCE-PROJECT
 │   │   │   └── productAction.js
 │   │   │   └── userAction.js
 │   │   ├── components
-│   │   │   └── admin
+│   │   │   └── Admin
 │   │   │   │     └── Dashboard.js
 │   │   │   │     └── Dashboard.css
+│   │   │   │     └── NewProduct.js
+│   │   │   │     └── NewProduct.css
+│   │   │   │     └── OrderList.js
+│   │   │   │     └── ProductList.js
+│   │   │   │     └── ProductList.css
+│   │   │   │     └── UpdateProudct.js
 │   │   │   │     └── Sidebar.js
 │   │   │   │     └── Sidebar.css
 │   │   │   └── Cart
