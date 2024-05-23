@@ -74,6 +74,7 @@ E-COMMERCE-PROJECT
 │   │   │   │     └── Dashboard.css
 │   │   │   │     └── NewProduct.js
 │   │   │   │     └── NewProduct.css
+│   │   │   │     └── OrderList.js
 │   │   │   │     └── ProductList.js
 │   │   │   │     └── ProductList.css
 │   │   │   │     └── UpdateProudct.js
